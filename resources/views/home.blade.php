@@ -3,6 +3,12 @@
 
 
 @section('content')
-    <h2>Home</h2>
-    <App />
+    <div>
+        <App />
+
+    </div>
+    <div>
+        {{-- <Navbar /> --}}
+        <Resume />
+    </div>
 @endsection
